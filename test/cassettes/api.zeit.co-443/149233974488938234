@@ -1,0 +1,17 @@
+GET /now/deployments
+authorization: Bearer 2Aa62jukSsSF5KOEWHizRfwz
+host: api.zeit.co
+accept: application/json
+
+HTTP/1.1 200 OK
+server: nginx
+date: Sun, 16 Apr 2017 10:49:04 GMT
+content-type: application/octet-stream
+transfer-encoding: chunked
+connection: close
+access-control-allow-origin: *
+access-control-allow-methods: GET, OPTIONS
+access-control-allow-headers: Authorization, Accept, Content-Type
+strict-transport-security: max-age=31536000; includeSubDomains;
+
+{"deployments":[{"uid":"6RMU8CJGKrXmdHDjN0YihTrn","name":"portfolio-2","url":"portfolio-2-pfvgtzmjns.now.sh","created":"1486807761884","state":"FROZEN","scale":{"current":0,"min":0,"max":0}},{"uid":"lZRL7AhBLE3rPP2o3VUmjxHi","name":"now-ci","url":"now-ci-igjuccfurd.now.sh","created":"1487535056981","state":"FROZEN","scale":{"current":0,"min":0,"max":0}},{"uid":"4G1AqEAnW26V2lXVn7gWukwx","name":"engagement","url":"engagement-jlijbfzalb.now.sh","created":"1492339703798","state":"READY","scale":{"current":1,"min":0,"max":1}},{"uid":"V5xC0eDjyaIknT4Dzts0LU16","name":"engagement","url":"engagement-tvnebztdde.now.sh","created":"1492336653108","state":"READY","scale":{"current":1,"min":0,"max":1}}]}
