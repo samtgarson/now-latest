@@ -1,6 +1,6 @@
 {
   "name": "now-latest",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Get the latest deployment of your now.sh app",
   "main": "index.js",
   "license": "MIT",
